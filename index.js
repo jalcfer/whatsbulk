@@ -53,7 +53,7 @@ const start = async () => {
   await page.setUserAgent(userAgent);
 
   await page.goto('http://web.whatsapp.com')
-  await page.waitForSelector('._2lMWa', {timeout: 180000})
+  await page.waitForSelector('.zaKsw', {timeout: 180000})
 
   console.log('logged in')
 
