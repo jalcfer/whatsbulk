@@ -85,6 +85,7 @@ const start = async () => {
     } catch (error) {
       log('numero de teléfono incorrecto ' + contact);
       console.log('numero de teléfono incorrecto ' + contact);
+      console.log('Error::' + error);
       continue;
     }
   }
