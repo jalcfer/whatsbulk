@@ -73,11 +73,11 @@ const start = async () => {
       page.on('dialog', async dialog => {
         await dialog.accept()
       })
-      await page.waitForSelector('._2lMWa', { timeout: 30000 })
+      await page.waitForSelector('._2lMWa', { timeout: 120000 })
       //await page.focus('._13NKt.copyable-text.selectable-text')
       //await page.keyboard.press(String.fromCharCode(13))
       await page.waitFor(4000)
-      await page.waitForSelector('._4sWnG', { timeout: 30000 })
+      await page.waitForSelector('._4sWnG', { timeout: 120000 })
       await page.waitFor(4000)
       await page.click('._4sWnG')
       await page.waitFor(4000)
