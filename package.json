@@ -6,9 +6,18 @@
   "scripts": {
     "serve": "node index.js"
   },
-  "author": "do4mother",
+  "author": "jalcfer",
   "license": "ISC",
   "dependencies": {
-    "puppeteer": "^1.13.0"
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "debug": "^4.3.2",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.3",
+    "pug": "^3.0.2",
+    "puppeteer": "^1.20.0",
+    "read-excel-file": "^5.2.20",
+    "serve-favicon": "^2.5.0"
   }
 }
