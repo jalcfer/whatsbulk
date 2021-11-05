@@ -67,7 +67,7 @@ const start = async () => {
     try {
       const precontent = getContent(config.content)
       let content = encodeURI(precontent)
-      await page.goto(`https://web.whatsapp.com/send?phone=${contact[1]}&text=Hola ${contact[0]}, ${content}`)
+      await page.goto(`https://web.whatsapp.com/send?phone=${contact[1].trim()}&text=Hola ${contact[0].trim()}, ${content}`)
       page.on('dialog', async dialog => {
         await dialog.accept()
       })
