@@ -94,6 +94,8 @@ const start = async () => {
   browser.close()
 }
 
+start()
+
 const getContact = (path) => {
   const contact = fs.readFileSync(path, { encoding: 'utf-8' })
   return contact;
