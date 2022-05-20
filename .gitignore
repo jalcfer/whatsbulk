@@ -3,3 +3,6 @@ user_data
 Data.xlsx
 whatsbulk.code-workspace
 public/uploads/
+.vscode/settings.json
+~$Data.xlsx
+log.txt

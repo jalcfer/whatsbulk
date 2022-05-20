@@ -77,9 +77,10 @@ const start = async () => {
       //await page.focus('._13NKt.copyable-text.selectable-text')
       //await page.keyboard.press(String.fromCharCode(13))
       await page.waitFor(4000)
-      await page.waitForSelector('._4sWnG', { timeout: 60000 })
+      //await page.waitForSelector('button[class~="svlsagor"]tvf2evcx oq44ahr5 lb5m6g5c svlsagor p2rjqpw5 epia9gcq', { timeout: 60000 })
+      await page.waitForSelector('button[class~="epia9gcq"]', { timeout: 60000 })
       await page.waitFor(4000)
-      await page.click('._4sWnG')
+      await page.click('button[class~="epia9gcq"]')
       await page.waitFor(4000)
       //await page.waitForSelector('[aria-label=" Entregado "]', {timeout: 30000})
       log('mensaje enviado correctamente a ' + contact);
